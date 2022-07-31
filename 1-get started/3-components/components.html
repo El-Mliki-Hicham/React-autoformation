@@ -16,18 +16,53 @@
 
     <script type="text/babel">
 
+class App extends React.Component{
+    render(){
+
+        return(
+            <div>
+                <Header />
+                
+                <Content/>    
+                <Footer />    
+            </div>
+        )
+    }
+}
+
+
 class Header extends React.Component{
 
     render(){
 return(
-        <div>
-        <h1>hello React</h1>
-            <h2>test Component</h2>
-        </div>
+        
+        <header>Header </header>
+
         );
     }
 }
-ReactDOM.render(<Header />,document.getElementById('root'));
+
+class Content extends React.Component{
+
+    render(){
+
+        return (
+            <main> content</main>
+        )
+    }
+}
+class Footer extends React.Component{
+
+    render(){
+
+        return (
+            <footer> footer</footer>
+        )
+    }
+}
+
+
+ReactDOM.render(<App />,document.getElementById('root'));
 
     </script>
 </body>
