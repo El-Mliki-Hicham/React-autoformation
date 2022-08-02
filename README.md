@@ -2,17 +2,17 @@
  
  Get Started:
  
-1.Hello World.
-2.JSX.
-3.Components.
-4.Properties.
-5.State.
+1.Hello World.<br>
+2.JSX.<br>
+3.Components.<br>
+4.Properties.<br>
+5.State.<br>
 
 Folder => Project React :
 
-1.Export and Import.
-2.Nested Component.
-3.Arrow Function.
-4.Events.
+1.Export and Import.<br>
+2.Nested Component.<br>
+3.Arrow Function.<br>
+4.Events.<br>
 
 
