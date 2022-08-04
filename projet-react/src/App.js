@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import React from 'react';
-import Cars from "./cars";
+import Cars, { StateFul, StateLess } from "./cars";
 
 
 class App extends React.Component{
@@ -10,6 +10,8 @@ class App extends React.Component{
     return (
       <div>
         <Cars />
+        <StateLess />
+      <StateFul />
       </div>
     )
   }
