@@ -5,7 +5,7 @@ class Person extends React.Component{
         const data = this.props.data;
         const Show_Data=data.map( values => {
             return (
-                 < div>
+                 <div key={values.id}>
                  <p>{values.id}</p>
                  <p>{values.Name}</p>
                  <p>{values.age}</p>
@@ -13,9 +13,9 @@ class Person extends React.Component{
             )
         })
         return(
-            <dev>
+            <main>
                 {Show_Data}
-            </dev>
+                </main>
         )
     }
 }

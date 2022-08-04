@@ -7,6 +7,7 @@ import Person from './Persons/persons';
 
 
 class App extends React.Component{
+  
   state={
       persons :[
         {id:1,Name:"hicham",age:21},
