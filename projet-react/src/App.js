@@ -12,9 +12,26 @@ class App extends React.Component{
       persons :[
         {id:1,Name:"hicham",age:21},
         {id:2,Name:"Nada",age:21},
-    ]
+
+    ],
+    input:'',
+    Name:'',
     
   }
+
+
+  AutoShow = (input)=>{
+
+    this.setState({ input : input.target.value,
+    })
+    }
+
+    showData=(value)=>{
+      value.preventDefault();
+       this.setState({
+        Name : this.state.input
+       }) 
+    }
   render(){
     return (
       <div>
@@ -22,6 +39,15 @@ class App extends React.Component{
         <Cars />
         <StateLess />
       <StateFul />
+      <div>
+        <h1>forms input</h1>
+        <p>{this.state.input}</p>
+        <p>{this.state.Name}</p>
+        <form onSubmit={this.showData}>
+        <input type='text' onChange={this.AutoShow} />
+        <button ></button>
+        </form>
+      </div>
       </div>
     )
   }
