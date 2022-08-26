@@ -10,7 +10,7 @@ class Cars extends React.Component{
         return alert(this.state.car1);
     }
     // Arrow function
-    names = ()=> 'Cars Name : ';
+    names = ()=> 'Cars Namee : ';
     
     // state
     state = {
