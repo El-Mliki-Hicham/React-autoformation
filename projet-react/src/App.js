@@ -4,6 +4,9 @@ import './App.css';
 import React from 'react';
 import Cars, { StateFul, StateLess } from "./cars";
 import Person from './Persons/persons';
+import Home from './person';
+
+
 
 
 class App extends React.Component{
@@ -39,6 +42,7 @@ class App extends React.Component{
         <Cars />
         <StateLess />
       <StateFul />
+      <Home  data={this.state.persons} />
       <div>
         <h1>forms input</h1>
         <p>{this.state.input}</p>
