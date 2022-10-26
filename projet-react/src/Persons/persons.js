@@ -2,7 +2,7 @@ import React from "react";
 
 class Person extends React.Component{
     render(){
-        const data = this.props.data;
+
         const Show_Data=data.map( values => {
             return (
                  <div key={values.id}>
