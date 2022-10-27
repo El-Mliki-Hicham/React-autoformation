@@ -3,30 +3,25 @@
  #  Get Started:
  
 1. Hello World.<br>
-2. JSX.<br>
-3. Components.<br>
-4. Properties.<br>
-5. State.<br>
+2. ES6.<br>
+3. Render html.<br>
+4. JSX.<br>
+5. Function components.<br>
+6. Class components.<br>
+7. Proprties.<br>
+8. Events.<br>
+9. Conditionals.<br>
+10. List.<br>
+11. Forms.<br>
+12. Router.<br>
+13. State.<br>
+14. Css styling.<br>
 
-#  Folder => Project React :
+# 15. Hooks : 
 
-1. Export and Import.<br>
-2. Nested Component.<br>
-3. Arrow Function.<br>
-4. Events.<br>
-5. Change State.<br>
-6. Stateful vs Stateless Component<br>
-7. React Loop  Using Map<br>
-8. Form<br>
-9. Output If Condition<br>
-10. Life cycle Methods<br>
-
-# Folder => First Project :
-1. Routing<br>
-2. Prevent Reload Using NavLink<br>
-3. HTTP Request<br>
-
-
+1. UseState<br>
+2. UseEffect<br>
+3. UseRef<br>
 
 # Presentation Google Slides:
 
