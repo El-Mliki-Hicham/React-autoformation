@@ -7,7 +7,7 @@ const PageUseState=()=>{
     
 
    const setData=()=>{
-        setName('nada')
+        setName('bilal')
     }   
 
     return(
