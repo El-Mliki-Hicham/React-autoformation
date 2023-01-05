@@ -49,3 +49,6 @@ https://docs.google.com/presentation/d/1imeuYFtmtB_4GLi3wm3Yk7PQxS1ie2Im4if-CiHd
 18. Prevent Reload Using NavLink
 19. HTTP Request
 
+
+## Creating a Production Build
+npm run build
