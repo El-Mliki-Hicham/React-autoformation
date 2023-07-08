@@ -1,5 +1,8 @@
 # React-autoformation
- 
+
+ # Presentation Google Slides:
+https://docs.google.com/presentation/d/1imeuYFtmtB_4GLi3wm3Yk7PQxS1ie2Im4if-CiHdzmw/edit?usp=sharing <br>
+
  #  Get Started:
  
 1. Hello World.<br>
@@ -22,10 +25,6 @@
 1. UseState<br>
 2. UseEffect<br>
 3. UseRef<br>
-
-# Presentation Google Slides:
-
-https://docs.google.com/presentation/d/1imeuYFtmtB_4GLi3wm3Yk7PQxS1ie2Im4if-CiHdzmw/edit?usp=sharing <br>
 
 ## plan de cours
 
